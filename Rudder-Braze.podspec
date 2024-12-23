@@ -2,8 +2,8 @@ require 'json'
 
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
-braze_kit = '~> 9.3.0'
-rudder_sdk_version = '~> 1.26'
+braze_kit = '~> 11.3.0'
+rudder_sdk_version = '~> 1.31.0'
 Pod::Spec.new do |s|
   s.name             = 'Rudder-Braze'
   s.version          = package['version']
@@ -29,12 +29,8 @@ Rudder is a platform for collecting, storing and routing customer event data to 
     Pod::UI.puts "#{s.name}: Using default Braze SDK version '#{braze_kit}'"
   end
   
-  if defined?($RudderSDKVersion)
-      Pod::UI.puts "#{s.name}: Using user specified Rudder SDK version '#{$RudderSDKVersion}'"
-      rudder_sdk_version = $RudderSDKVersion
-  else
-      Pod::UI.puts "#{s.name}: Using default Rudder SDK version '#{rudder_sdk_version}'"
-  end
+
+  Pod::UI.puts "#{s.name}: Using default Rudder SDK version '#{rudder_sdk_version}'"
 
   s.dependency 'Rudder', rudder_sdk_version
   s.dependency 'BrazeKit', braze_kit

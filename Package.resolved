@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/braze-inc/braze-swift-sdk-prebuilt-static",
         "state": {
           "branch": null,
-          "revision": "5b74e69ad16c8c2ad470f5c7b143b2669f9532c6",
-          "version": "9.3.0"
+          "revision": "8507599b00d038b6cf1f0f7a2588a814298f9b6a",
+          "version": "11.3.0"
         }
       },
       {
@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/rudderlabs/rudder-sdk-ios",
         "state": {
           "branch": null,
-          "revision": "28fdbdebf170c685e6100f593557b9d2a77278d6",
-          "version": "1.29.0"
+          "revision": "2543f659cfc1b772999f932ded1b210f94faeb0c",
+          "version": "1.31.0"
         }
       }
     ]
