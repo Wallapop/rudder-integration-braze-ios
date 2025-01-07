@@ -14,8 +14,8 @@ let package = Package(
             targets: ["Rudder-Braze"]),
     ],
     dependencies: [
-        .package(name: "braze-swift-sdk", url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-static", .exact("9.3.0")),
-        .package(name: "Rudder", url: "https://github.com/rudderlabs/rudder-sdk-ios", "1.26.0"..<"2.0.0")
+        .package(name: "braze-swift-sdk", url: "https://github.com/braze-inc/braze-swift-sdk-prebuilt-static", .exact("11.3.0")),
+        .package(name: "Rudder", url: "https://github.com/jessicahervel/rudder-sdk-ios", .revision("b637a2673f46ad336392f87eaa3627e0df509f61"))
     ],
     targets: [
         .target(

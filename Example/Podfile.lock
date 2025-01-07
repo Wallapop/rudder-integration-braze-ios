@@ -1,7 +1,7 @@
 PODS:
-  - BrazeKit (9.3.0)
-  - BrazeUI (9.3.0):
-    - BrazeKit (= 9.3.0)
+  - BrazeKit (11.3.0)
+  - BrazeUI (11.3.0):
+    - BrazeKit (= 11.3.0)
   - MetricsReporter (1.2.1):
     - RSCrashReporter (= 1.0.1)
     - RudderKit (= 1.4.0)
@@ -9,8 +9,8 @@ PODS:
   - Rudder (1.26.3):
     - MetricsReporter (= 1.2.1)
   - Rudder-Braze (2.0.0):
-    - BrazeKit (~> 9.3.0)
-    - Rudder (~> 1.26)
+    - BrazeKit (~> 11.3.0)
+    - Rudder (~> 1.31.0)
   - RudderKit (1.4.0)
 
 DEPENDENCIES:
