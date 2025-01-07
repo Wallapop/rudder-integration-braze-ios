@@ -3,7 +3,7 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 braze_kit = '~> 11.3.0'
-rudder_sdk_version = '~> 1.31.0'
+rudder_sdk_version = '~> 2.0.0'
 Pod::Spec.new do |s|
   s.name             = 'Rudder-Braze'
   s.version          = package['version']
